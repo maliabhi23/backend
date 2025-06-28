@@ -4,10 +4,10 @@
   "description": "",
   "main": "build/index.js",
   "scripts": {
-    "dev": "ts-node-dev src/index.ts",    // for local dev only
-    "build": "tsc",                        // compile TypeScript before Render starts
-    "start": "node build/index.js"         // what Render will run
-  },
+  "dev": "ts-node-dev src/index.ts",
+  "build": "tsc",
+  "start": "node build/index.js"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
